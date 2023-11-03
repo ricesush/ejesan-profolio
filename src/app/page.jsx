@@ -3,8 +3,10 @@ import styles from './page.module.css'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      Main Page
+    <main className='body-min-height'>
+      <section className='col'>
+        Middle Page
+      </section>
     </main>
   )
 }
