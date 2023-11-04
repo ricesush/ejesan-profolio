@@ -1,17 +1,22 @@
 :root{
-  color: white !important;
+
 }
 
 *{
   color: white !important;
+  font-family: sans-serif !important;
 }
 
 body{
-  background-color: #303030 !important;
+  background-color: rgb(244, 244, 244) !important;
 }
 
 .bg-dark-gray{
   background-color: #212529;
+}
+
+.bg-light-gray{
+  background-color: #2f2f2f !important;
 }
 
 .text-orange{
@@ -21,7 +26,18 @@ body{
 .body-min-height{
   min-height: calc(100vh - 10.5rem);
 }
+/* 
+.nav-item a{
+  color: rgb(164, 164, 164) !important;
+} */
 
-.list-style-none{
+.border-end-orange{
+  border-right: 1px solid chocolate;
+}
+
+
+.nav-item:hover a{
+  color: chocolate !important;
+  transition: all ease-in-out .3s !important;
 
 }
