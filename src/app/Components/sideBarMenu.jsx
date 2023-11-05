@@ -14,13 +14,13 @@ export default function SideBarMenu() {
                 <Image
                   src={ProfilePic}
                   alt='EJ Esan Profile Picture'
-                  width={100}
-                  className='m-4'
+                  width={150}
+                  className='mx-4 my-3'
                 ></Image>
                 <div className=''>
-                  <p className='fw-bold fs-6 p-0 m-0 text-dark'>Erick-john Santosidad</p>
+                  <p className='fw-bold fs-4 p-0 m-0 text-dark'>Erick-john Santosidad</p>
                   <p className='fs-6 fw-bold p-0 m-0 border-top border-secondary border-opacity-50  text-secondary'><i className="bi bi-laptop text-dark"></i> Full Stack Web Developer</p>
-                  <button className='btn btn-orange btn-sm mt-2 fw-medium d-flex align-items-center py-0'>Download Resume <i className="bi bi-cloud-arrow-down ms-2 fs-5"></i></button>
+                  <button className='btn btn-orange rounded-5 btn-sm mt-2 fw-medium d-flex align-items-center py-0'>Download Resume <i className="bi bi-cloud-arrow-down ms-2 fs-5 bg-transparent"></i></button>
                 </div>
               </div>
               <nav className="container">
@@ -32,7 +32,7 @@ export default function SideBarMenu() {
                         <Link className="nav-link fs-6 fw-bold text-secondary px-2 border-bot-hover" href='/projects'>Projects</Link>
                       </li>
                       <li className="list-group-item bg-transparent border-0 nav-item text-center">
-                        <Link className="nav-link fs-6 fw-bold text-secondary px-2 border-bot-hover" href='/about'>About Me</Link>
+                        <Link className="nav-link fs-6 fw-bold text-secondary px-2 border-bot-hover text-nowrap" href='/about'>About Me</Link>
                       </li>
                       <li className="list-group-item bg-transparent border-0 nav-item text-center">
                         <Link className="nav-link fs-6 fw-bold text-secondary px-2 border-bot-hover" href='/contact'>Contact</Link>
@@ -41,7 +41,7 @@ export default function SideBarMenu() {
               </nav>
             </section>
 
-            <section className='col-3 ms-auto text-dark border-start ps-4'>
+            <section className='col-3 ms-auto text-dark border-start ps-4 d-md-block d-none'>
               <table className="table table-borderless fs-6">
                 <tbody>
                   <tr>
