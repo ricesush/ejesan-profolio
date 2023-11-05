@@ -1,10 +1,12 @@
 :root{
-
+  box-sizing: border-box !important;
 }
 
 *{
   color: white !important;
   font-family: sans-serif !important;
+  /* box-sizing: border-box !important; */
+  /* box-sizing: content-box !important; */
 }
 
 body{
@@ -32,12 +34,37 @@ body{
 } */
 
 .border-end-orange{
-  border-right: 1px solid chocolate;
+  border-right: 1px solid chocolate !important;
 }
 
 
 .nav-item:hover a{
   color: chocolate !important;
   transition: all ease-in-out .3s !important;
+}
 
+
+
+.btn-orange{
+  border: 1px solid chocolate !important;
+  background-color: rgb(205, 205, 205);
+  color: chocolate !important;
+}
+
+.btn-orange i{
+  color: chocolate !important;
+}
+
+.btn-orange:hover, .btn-orange:hover i {
+  background-color: chocolate !important;
+  color: white !important;
+}
+
+.border-bot-hover{
+  border-bottom: 1px solid transparent !important;
+}
+
+.border-bot-hover:hover{
+  box-sizing: border-box !important;
+  border-bottom: 1px solid chocolate !important;
 }

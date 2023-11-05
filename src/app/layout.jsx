@@ -23,11 +23,11 @@ export default function RootLayout({ children }) {
       </Head>
       <body className={inter.className}>
       <Navmenu />
-      <section className='d-flex container'>
-        <section className='d-lg-block d-none col-3'>
+      <section className=''>
+        <section className='col'>
           <SideBarMenu />
         </section>
-        <section className='col'>
+        <section className='col container'>
           {children}
         </section>
       </section>
