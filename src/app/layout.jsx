@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         <section className='d-lg-block d-none col-3'>
           <SideBarMenu />
         </section>
-        <section>
+        <section className='col'>
           {children}
         </section>
       </section>

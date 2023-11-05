@@ -18,8 +18,26 @@ export default function SideBarMenu() {
             <p className='fs-6 fw-bold p-0 m-0 border-top border-secondary border-opacity-50  text-secondary'><i className="bi bi-laptop text-dark"></i> Full Stack Web Developer</p>
           </div>
           <div className="card-body">
-            <p className="card-text text-dark fs-6"><i class="bi bi-geo-alt-fill text-orange"></i> Quezon City, Philippines</p>
-            <p className="card-text text-dark fs-6"><i class="bi bi-translate text-orange"></i> English, Filipino</p>
+          <table className="table table-borderless fs-6">
+            <tbody>
+              <tr>
+                <td className='col-1'><i className="bi bi-geo-alt-fill text-orange"></i></td>
+                <td className='text-dark'>Quezon City, Philippines</td>
+              </tr>
+              <tr>
+                <td className='col-1'><i className="bi bi-translate text-orange"></i></td>
+                <td className='text-dark'>English, Filipino</td>
+              </tr>
+              <tr>
+                <td className='col-1'><i className="bi bi-envelope-at-fill text-orange"></i></td>
+                <td className='text-dark'>Pixelartme@gmail.com</td>
+              </tr>
+              <tr>
+                <td className='col-1'><i className="bi bi-telephone-fill text-orange"></i></td>
+                <td className='text-dark'>+63999-551-4413</td>
+              </tr>
+            </tbody>
+          </table>
           </div>
         </div>
     </section>

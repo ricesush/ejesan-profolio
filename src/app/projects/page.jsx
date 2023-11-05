@@ -4,7 +4,9 @@ export default function Page() {
   return (
     <main className='body-min-height'>
         <section className='container'>
-            This is the Project Page
+            <section>
+              Project 1123
+            </section>
         </section>
     </main>
   )
