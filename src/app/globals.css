@@ -63,16 +63,17 @@ body{
 
 
 .btn-orange{
-  border: 1px solid chocolate !important;
-  background-color: rgb(205, 205, 205);
-  color: chocolate !important;
+  border: 1px solid #c2c2c2;
+  background-color: white;
+  color: #151b1f !important;
 }
 
 .btn-orange i{
-  color: chocolate !important;
+  color: #151b1f !important;
 }
 
 .btn-orange:hover {
+  border: 1px solid chocolate !important;
   background-color: chocolate !important;
   color: white !important;
 }
@@ -86,6 +87,20 @@ body{
 }
 
 .border-bot-hover:hover {
+  box-sizing: border-box !important;
+  border-bottom: 2px solid chocolate !important;
+}
+
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+
+.navbar-toggler{
+  border: 1px solid chocolate !important;
+}
+
+.activePage{
+  color: chocolate !important;
   box-sizing: border-box !important;
   border-bottom: 2px solid chocolate !important;
 }
